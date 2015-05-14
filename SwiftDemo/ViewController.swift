@@ -38,14 +38,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let shortPath = (indexPath.section, indexPath.row)
         switch shortPath {
             case (0, 0):
-                cell.textLabel!.text = "Watch Streaming"
-                cell.detailTextLabel!.text = "http://stream.ssh101.com/hls/truongvo.m3u8"
+                cell.textLabel!.text = "Watch Streaming Video"
             case (0, 1):
-                cell.textLabel!.text = "Start Streaminng"
-                cell.detailTextLabel!.text = "rtmp://stream.ssh101.com/live"
+                cell.textLabel!.text = "Start Streaminng Video"
             default:
                 cell.textLabel!.text = ""
-                cell.detailTextLabel!.text = ""
         }
         
         return cell

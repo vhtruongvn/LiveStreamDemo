@@ -38,8 +38,8 @@
     
     //[DebLog setIsActive:YES];
     
-    hostText = @"rtmp://stream.ssh101.com/live";
-    streamText = @"truongvo";
+    hostText = @"rtmp://live.streamup.com/app";
+    streamText = @"PvTX6iBZ_Q3VdZusAQuc";
     
     memoryTicker = [[MemoryTicker alloc] initWithResponder:self andMethod:@selector(sizeMemory:)];
     memoryTicker.asNumber = YES;

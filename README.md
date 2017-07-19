@@ -1,3 +1,3 @@
 # SwiftDemo
 
-A sample app for watching live stream with URL
+A sample app for starting/watching live stream
